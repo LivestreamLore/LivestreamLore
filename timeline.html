@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Livestream Lore - Timeline</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #00ffcc;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #00ffcc;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffcc;
+      text-shadow: 0 0 8px #00ffcc;
+    }
+    .timeline {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .event {
+      margin-bottom: 40px;
+      border-left: 2px solid #00ffcc;
+      padding-left: 20px;
+      position: relative;
+    }
+    .event::before {
+      content: '';
+      position: absolute;
+      left: -7px;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      background-color: #00ffcc;
+      border-radius: 50%;
+    }
+    .event h3 {
+      margin: 0;
+      font-size: 1.3rem;
+    }
+    .event p {
+      margin: 5px 0 0 0;
+      color: #c2fff9;
+    }
+    a.back {
+      display: block;
+      text-align: center;
+      margin: 40px auto;
+      text-decoration: none;
+      color: #00ffcc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Livestream Lore Timeline</h1>
+  </header>
+  <div class="timeline">
+    <div class="event">
+      <h3>2007 – Justin.tv Launches</h3>
+      <p>The platform that started it all, originally just one man's livestream before opening to the public.</p>
+    </div>
+    <div class="event">
+      <h3>2011 – Twitch.tv Spins Off</h3>
+      <p>Twitch becomes the dedicated platform for gaming content, separating from Justin.tv.</p>
+    </div>
+    <div class="event">
+      <h3>2014 – Amazon Acquires Twitch</h3>
+      <p>Amazon buys Twitch for nearly $1B, validating livestreaming as a major media force.</p>
+    </div>
+    <div class="event">
+      <h3>2019 – Ninja Moves to Mixer</h3>
+      <p>Top streamer Ninja leaves Twitch for Microsoft's Mixer platform in a high-profile deal.</p>
+    </div>
+    <div class="event">
+      <h3>2020 – Twitch Sees Massive Growth During Pandemic</h3>
+      <p>Lockdowns push creators and viewers to livestreaming in record numbers.</p>
+    </div>
+    <div class="event">
+      <h3>2023 – xQc Signs $100M Deal with Kick</h3>
+      <p>Streaming deals reach record-breaking levels as Kick competes with Twitch for top talent.</p>
+    </div>
+  </div>
+  <a class="back" href="index.html">&larr; Back to Home</a>
+</body>
+</html>
